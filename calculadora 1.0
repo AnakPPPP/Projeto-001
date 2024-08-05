@@ -1,14 +1,3 @@
-def calculadora_multiplicacao():
-    try:
-        num1 = float(input("Digite o primeiro número: "))
-        num2 = float(input("Digite o segundo número: "))
-        resultado = num1 * num2
-        print(f"O resultado da multiplicação de {num1} por {num2} é: {resultado}")
-    except ValueError:
-        print("Entrada inválida. Certifique-se de digitar números válidos.")
-
-# Chamando a função para executar o programa
-calculadora_multiplicacao()
 while True:
 print("Escolha a operação:")
 print("1 - Soma")
